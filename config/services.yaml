@@ -1,0 +1,3 @@
+services:
+    App\ConferenceFactory:
+        class: App\ConferenceFactory
