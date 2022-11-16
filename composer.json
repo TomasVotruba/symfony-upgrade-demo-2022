@@ -5,7 +5,8 @@
         "symfony/dependency-injection": "^5.4"
     },
     "require-dev": {
-        "symplify/config-transformer": "^11.1"
+        "symplify/config-transformer": "^11.1",
+        "rector/rector": "^0.14.8"
     },
     "autoload": {
         "psr-4": {
