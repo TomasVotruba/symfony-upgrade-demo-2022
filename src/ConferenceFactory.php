@@ -8,7 +8,7 @@ use App\Entity\Conference;
 
 final class ConferenceFactory
 {
-    public function create(array $talks)
+    public function create($talks)
     {
         return new Conference('SymfonyCon 2022', 'Paris', 'New York', $talks);
     }

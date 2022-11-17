@@ -1,4 +1,4 @@
-# How to Instantly Upgrade Legaacy Symfony Project in Minutes 
+# How to Instantly Upgrade Legaacy Symfony Project in Minutes
 
 What do we Demo?
 
