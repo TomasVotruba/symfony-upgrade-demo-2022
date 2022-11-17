@@ -1,0 +1,8 @@
+parameters:
+    customRulesetUsed: true
+    paths:
+        - src
+
+rules:
+    - Symplify\PHPStanRules\Rules\Explicit\NoMixedMethodCallerRule
+    - Symplify\PHPStanRules\Rules\Explicit\NoMixedPropertyFetcherRule

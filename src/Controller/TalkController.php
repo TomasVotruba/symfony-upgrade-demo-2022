@@ -8,7 +8,7 @@ final class TalkController
 {
     private $eventDispatcher;
 
-    public function __construct($eventDispatcher)
+    public function __construct(\Symfony\Component\EventDispatcher\EventDispatcher $eventDispatcher)
     {
         $this->eventDispatcher = $eventDispatcher;
     }
