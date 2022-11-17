@@ -1,11 +1,13 @@
 {
     "name": "tomas-votruba/symfony-upgrade-demo-2022",
     "require": {
-        "php": "^7.4|^8.0",
-        "symfony/dependency-injection": "^5.4"
+        "php": "^7.2",
+        "symfony/forms": "^2.8"
     },
     "require-dev": {
         "symplify/config-transformer": "^11.1",
+        "symplify/vendor-patches": "^11.1",
+        "symplify/phpstan-rules": "^11.1",
         "rector/rector": "^0.14.8",
         "phpstan/phpstan": "^1.9"
     },
@@ -13,5 +15,8 @@
         "psr-4": {
             "App\\": "src"
         }
+    },
+    "scripts": {
+        "demo-type-coverage": "vendor/bin/phpstan --config type-coverage"
     }
 }

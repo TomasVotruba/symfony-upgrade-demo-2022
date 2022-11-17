@@ -6,5 +6,15 @@ namespace App\Controller;
 
 final class TalkController
 {
-    // @todo add some @routes
+    private $eventDispatcher;
+
+    public function __construct($eventDispatcher)
+    {
+        $this->eventDispatcher = $eventDispatcher;
+    }
+
+    public function run()
+    {
+        $this->eventDispatcher->dispatch();
+    }
 }
