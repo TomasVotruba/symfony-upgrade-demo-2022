@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
 
 final class Conference
 {
-    public function __construct(string $name)
+    public function __construct(string $name, array $talks)
     {
     }
 
