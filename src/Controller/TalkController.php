@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace App\Controller;
 
+use App\Factory\ConferenceFactory;
+
 final class TalkController
 {
     private $eventDispatcher;
@@ -16,5 +18,11 @@ final class TalkController
     public function run()
     {
         $this->eventDispatcher->dispatch();
+    }
+
+    public function create()
+    {
+        $conferenceFactory = new ConferenceFactory();
+        return $conferenceFactory->create([]);
     }
 }
