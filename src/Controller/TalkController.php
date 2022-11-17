@@ -18,7 +18,7 @@ final class TalkController
 
     public function run()
     {
-        $this->eventDispatcher->dispatch();
+        $this->eventDispatcher->dispatch('conference_event');
     }
 
     public function create()

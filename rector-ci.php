@@ -19,4 +19,5 @@ return static function (RectorConfig $rectorConfig): void {
         // LevelSetList::UP_TO_PHP_81,
         // SymfonyLevelSetList::UP_TO_SYMFONY_61
     ]);
+    $rectorConfig->paths([__DIR__ . '/src']);
 };
