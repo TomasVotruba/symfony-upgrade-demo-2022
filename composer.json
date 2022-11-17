@@ -4,7 +4,7 @@
         "php": "^7.2",
         "symfony/form": "^2.8",
         "symfony/event-dispatcher": "^2.8",
-        "doctrine/orm": "2.7"
+        "doctrine/orm": "^2.7"
     },
     "require-dev": {
         "symplify/config-transformer": "^11.1",
@@ -27,6 +27,6 @@
         "demo-rename-class": "vendor/bin/rector process --config rector-rename-class.php --dry-run",
         "demo-rename-method": "vendor/bin/rector process --config rector-rename-method.php --dry-run",
         "demo-doctrine-attributes": "vendor/bin/rector process --config rector-attributes.php --dry-run",
-        "demo-nested-doctrine-attributes": "vendor/bin/rector process --config rector-nested-attributes.php --dry-run"
+        "demo-nested-attributes": "vendor/bin/rector process --config rector-nested-attributes.php --dry-run"
     }
 }

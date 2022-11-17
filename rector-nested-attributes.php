@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 use Rector\Config\RectorConfig;
+use Rector\Core\ValueObject\PhpVersion;
 use Rector\Doctrine\Set\DoctrineSetList;
 
 return static function (RectorConfig $rectorConfig): void {
@@ -12,4 +13,6 @@ return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->sets([
         DoctrineSetList::ANNOTATIONS_TO_ATTRIBUTES,
     ]);
+
+    $rectorConfig->phpVersion(PhpVersion::PHP_80);
 };
