@@ -1,4 +1,6 @@
-# How to Instantly Upgrade Legaacy Symfony Project in Minutes
+# How to Instantly Upgrade Legacy Symfony Project in Minutes
+
+Slides can be found here: https://slides.com/tomasvotruba/minute-symfonycon-2022
 
 What do we Demo?
 
