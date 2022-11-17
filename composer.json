@@ -18,6 +18,11 @@
             "App\\": "src"
         }
     },
+    "config": {
+        "allow-plugins": {
+            "cweagans/composer-patches": true
+        }
+    },
     "scripts": {
         "demo-transform-config": "vendor/bin/config-transformer switch-format config --dry-run --ansi",
         "demo-transform-config-no-dry": "vendor/bin/config-transformer switch-format config --ansi",
