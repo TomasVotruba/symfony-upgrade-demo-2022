@@ -7,6 +7,8 @@ What do we Demo?
 ## 1. Patches
 
 ```bash
+# see vendor/symfony/form/Test/TypeTestCase.php:28
+
 composer demo-generate-patch
 ```
 
