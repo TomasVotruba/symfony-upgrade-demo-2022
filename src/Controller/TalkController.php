@@ -11,14 +11,14 @@ final class TalkController
 {
     private $eventDispatcher;
 
-    public function __construct(EventDispatcher $eventDispatcher)
+    public function __construct(\Symfony\Component\EventDispatcher\EventDispatcherInterface $eventDispatcher)
     {
         $this->eventDispatcher = $eventDispatcher;
     }
 
     public function run()
     {
-        $this->eventDispatcher->dispatch('conference_event');
+        $this->eventDispatcher->dispatchEvent('conference_event');
     }
 
     public function create()
