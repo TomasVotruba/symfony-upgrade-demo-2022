@@ -21,7 +21,8 @@ jobs:
                     coverage: none
 
             -   uses: "ramsey/composer-install@v1"
-            -   run: vendor/bin/rector process --ansi
+
+            -   run: vendor/bin/rector process --ansi --config rector-ci.php
 
             # commit changes, see https://github.com/EndBug/add-and-commit
             -
