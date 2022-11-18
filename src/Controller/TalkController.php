@@ -5,12 +5,13 @@ declare(strict_types=1);
 namespace App\Controller;
 
 use App\Factory\ConferenceFactory;
+use Symfony\Component\EventDispatcher\EventDispatcher;
 
 final class TalkController
 {
     private $eventDispatcher;
 
-    public function __construct(\Symfony\Component\EventDispatcher\EventDispatcher $eventDispatcher)
+    public function __construct(EventDispatcher $eventDispatcher)
     {
         $this->eventDispatcher = $eventDispatcher;
     }
