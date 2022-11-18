@@ -24,8 +24,8 @@
         }
     },
     "scripts": {
-        "demo-transform-config": "vendor/bin/config-transformer switch-format config --dry-run --ansi",
-        "demo-transform-config-no-dry": "vendor/bin/config-transformer switch-format config --ansi",
+        "demo-transform-config": "vendor/bin/config-transformer switch-format config --dry-run",
+        "demo-transform-config-no-dry": "vendor/bin/config-transformer switch-format config",
         "demo-generate-patch": "vendor/bin/vendor-patches generate",
         "demo-type-coverage": "vendor/bin/phpstan analyze --configuration phpstan-type-coverage.neon",
         "demo-rename-class": "vendor/bin/rector process --config rector-rename-class.php --dry-run",
