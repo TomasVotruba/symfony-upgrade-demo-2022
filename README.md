@@ -27,19 +27,19 @@ composer demo-transform-config-no-dry
 composer demo-type-coverage
 ```
 
-## 5. Rector Upgrade Set
+## 4. Rector Upgrade
 
 ```bash
 composer demo-rename-class
 ```
 
-## 6. Rector Doctrine Attributes
+## 5. Rector Doctrine Attributes
 
 ```bash
 composer demo-doctrine-attributes
 ```
 
-## 7. Rector auto-commit
+## 6. Rector auto-commit
 
 @todo - create a PR and push something wrong :)
 
