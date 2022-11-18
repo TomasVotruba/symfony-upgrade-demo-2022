@@ -8,11 +8,8 @@ use Doctrine\ORM\Mapping as ORM;
 
 final class ConferenceFestival
 {
-    /**
-     * @ORM\JoinTable(name="join_table_name",
-     *     joinColumns={@ORM\JoinColumn(name="origin_id")},
-     *     inverseJoinColumns={@ORM\JoinColumn(name="target_id")}
-     * )
-     */
+    #[ORM\JoinTable(name: 'join_table_name')]
+    #[ORM\JoinColumn(name: 'origin_id')]
+    #[ORM\InverseJoinColumn(name: 'target_id')]
     private $collection;
 }
