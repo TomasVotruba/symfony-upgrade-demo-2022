@@ -27,7 +27,6 @@
         "demo-transform-config": "vendor/bin/config-transformer switch-format config --dry-run --ansi",
         "demo-transform-config-no-dry": "vendor/bin/config-transformer switch-format config --ansi",
         "demo-generate-patch": "vendor/bin/vendor-patches generate",
-        "demo-mixed-caller-fetcher": "vendor/bin/phpstan analyze --configuration phpstan-mixed-caller-fetcher.neon",
         "demo-type-coverage": "vendor/bin/phpstan analyze --configuration phpstan-type-coverage.neon",
         "demo-rename-class": "vendor/bin/rector process --config rector-rename-class.php --dry-run",
         "demo-rename-method": "vendor/bin/rector process --config rector-rename-method.php --dry-run",

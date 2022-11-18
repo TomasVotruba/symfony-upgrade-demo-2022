@@ -16,10 +16,9 @@ composer demo-generate-patch
 composer demo-transform-config
 ```
 
-## 3. Type Coverage and Mixed Caller and Variable
+## 3. Type Coverage
 
 ```bash
-composer demo-mixed-caller-fetcher
 composer demo-type-coverage
 ```
 

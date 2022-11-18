@@ -19,7 +19,6 @@ jobs:
                     - run: composer demo-transform-config-no-dry
 
                     # phpstan
-                    - run: composer demo-mixed-caller-fetcher
                     - run: composer demo-type-coverage
 
                     # rector
