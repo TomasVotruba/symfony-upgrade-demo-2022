@@ -34,7 +34,6 @@ composer demo-rename-method
 
 ```bash
 composer demo-doctrine-attributes
-composer demo-nested-doctrine-attributes
 ```
 
 ## 7. Rector auto-commit

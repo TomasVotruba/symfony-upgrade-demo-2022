@@ -28,7 +28,6 @@ jobs:
 
                     # rector attributes
                     - run: composer demo-doctrine-attributes
-                    - run: composer demo-nested-doctrine-attributes
 
         steps:
             -   uses: actions/checkout@v2

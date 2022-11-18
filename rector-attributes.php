@@ -7,9 +7,11 @@ use Rector\Core\ValueObject\PhpVersion;
 use Rector\Doctrine\Set\DoctrineSetList;
 
 return static function (RectorConfig $rectorConfig): void {
-    $rectorConfig->paths([__DIR__ . '/src/Entity/Conference.php']);
+    $rectorConfig->paths([
+        __DIR__ . '/src/Entity',
+    ]);
 
-    // 3. rename Doctrine annotations to PHP 8 native attributes
+    // upgrade Doctrine annotations to PHP 8 native attributes
     $rectorConfig->sets([
         DoctrineSetList::ANNOTATIONS_TO_ATTRIBUTES,
     ]);
