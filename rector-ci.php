@@ -8,9 +8,6 @@ use Rector\Symfony\Set\SymfonyLevelSetList;
 
 return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->import(
-        __DIR__ . '/rector-rename-method.php'
-    );
-    $rectorConfig->import(
         __DIR__ . '/rector-attributes.php'
     );
 
@@ -20,5 +17,5 @@ return static function (RectorConfig $rectorConfig): void {
         // SymfonyLevelSetList::UP_TO_SYMFONY_61
     ]);
 
-    $rectorConfig->paths([__DIR__ . '/src']);
+    $rectorConfig->paths([__DIR__ . '/src/Entity']);
 };
