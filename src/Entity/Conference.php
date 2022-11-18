@@ -12,6 +12,8 @@ final class Conference
     {
     }
 
-    #[ORM\Column(type: 'string', length: 255)]
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
     public $name;
 }
