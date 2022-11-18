@@ -14,6 +14,9 @@ composer demo-generate-patch
 
 ```bash
 composer demo-transform-config
+
+# apply changes
+composer demo-transform-config-no-dry
 ```
 
 ## 3. Type Coverage

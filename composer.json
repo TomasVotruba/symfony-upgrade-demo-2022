@@ -4,7 +4,8 @@
         "php": "^7.2",
         "symfony/form": "^2.8",
         "symfony/event-dispatcher": "^2.8",
-        "doctrine/orm": "^2.7"
+        "doctrine/orm": "^2.7",
+        "symfony/dependency-injection": "^5.4"
     },
     "require-dev": {
         "symplify/config-transformer": "^11.1",
