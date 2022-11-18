@@ -4,8 +4,7 @@
         "php": "^7.2",
         "symfony/form": "^2.8",
         "symfony/event-dispatcher": "^2.8",
-        "doctrine/orm": "^2.7",
-        "symfony/dependency-injection": "^5.4"
+        "doctrine/orm": "^2.7"
     },
     "require-dev": {
         "symplify/config-transformer": "^11.1",
@@ -30,7 +29,6 @@
         "demo-generate-patch": "vendor/bin/vendor-patches generate",
         "demo-type-coverage": "vendor/bin/phpstan analyze --configuration phpstan-type-coverage.neon",
         "demo-rename-class": "vendor/bin/rector process --config rector-rename-class.php --dry-run",
-        "demo-rename-method": "vendor/bin/rector process --config rector-rename-method.php --dry-run",
         "demo-doctrine-attributes": "vendor/bin/rector process --config rector-attributes.php --dry-run"
     }
 }

@@ -31,7 +31,6 @@ composer demo-type-coverage
 
 ```bash
 composer demo-rename-class
-composer demo-rename-method
 ```
 
 ## 6. Rector Doctrine Attributes
