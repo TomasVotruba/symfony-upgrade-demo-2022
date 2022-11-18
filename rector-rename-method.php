@@ -25,9 +25,4 @@ return static function (RectorConfig $rectorConfig): void {
             'dispatchEvent'
         )
     ]);
-
-    // 3. rename Doctrine annotations to PHP 8 native attributes
-    $rectorConfig->sets([
-        DoctrineSetList::ANNOTATIONS_TO_ATTRIBUTES,
-    ]);
 };
