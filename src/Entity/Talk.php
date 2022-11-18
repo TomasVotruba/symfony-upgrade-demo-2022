@@ -12,8 +12,6 @@ final class Talk
     {
     }
 
-    /**
-     * @ORM\Column(type="string", length=255)
-     */
+    #[ORM\Column(type: 'string', length: 255)]
     public $name;
 }
